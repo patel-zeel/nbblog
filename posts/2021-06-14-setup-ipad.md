@@ -45,12 +45,12 @@ I do so by:
 writing `pickFolder` in a-Shell and setting it to WorkingCopy folder. Now I can set a bookmark to this location. I do so by: 
 `bookmark git` in the current location (set by pickFolder)
 
-![]({{ site.baseurl }}/images/Bookmark-Git.png "Setting Bookmark location to WorkingApp -> git")
+![](Bookmark-Git.png "Setting Bookmark location to WorkingApp -> git")
 
 ### Git
 Interestingly, the latest testflight version of a-shell also provides a "Git-like" interface called `libgit2`. Configuring it requires specific steps that I'm writing below. Some of these steps are borrowed from this [nice tutorial](https://devmarketer.io/learn/set-ssh-key-github/) and some are specific to a-shell that I was able to get working courtesy a Twitter discussion with the creator of a-shell. 
 
-![]({{ site.baseurl }}/images/Twitter.png "Twitter discussion with the creator of a-shell")
+![](Twitter.png "Twitter discussion with the creator of a-shell")
 
 Now, the steps.
 
@@ -93,7 +93,7 @@ As a quickfix I renamed the branch on my Github repo as "master" and for now set
 Finally, I am able to pull and push to the repositories. The next image infact is showing commits and pushes made to the repository generating the blog post you are reading. 
 
 
-![]({{ site.baseurl }}/images/libgit-2.png "libgit2 push and commiting")
+![](libgit-2.png "libgit2 push and commiting")
 
 ### SSH/SFTP
 
@@ -101,13 +101,13 @@ There are a couple of amazing apps: Termius and SecureShell. Both have very neat
 
 The GIF below shows the SecureShell app in action where I transfer a file from my local storage (iPad) to remote server, process that file, and quickly copy the processed file back to local storage. 
 
-![]({{ site.baseurl }}/images/SecureShell.gif "Working with SecureShell is amazing!")
+![](SecureShell.gif "Working with SecureShell is amazing!")
 
 Another great functionality of the SecureShell is the "Offline" folder. 
 
 Another setting that I use is the Powerline fonts on my remote systems. Using Fontcase, I installed the corresponding powerline fonts on the iPad so that my SecureShell session looks great.
 
-![]({{ site.baseurl }}/images/powerline-combined.png "Powerline fonts installed via Fontcase allow special characters on the remote terminalls (above image without powerline font on iPad, below one with powerline font")
+![](powerline-combined.png "Powerline fonts installed via Fontcase allow special characters on the remote terminalls (above image without powerline font on iPad, below one with powerline font")
 
 
 
@@ -115,7 +115,7 @@ Another setting that I use is the Powerline fonts on my remote systems. Using Fo
 
 I like the "view" utility in a-shell a lot. It can quickly help you preview various filetypes.
 
-![]({{ site.baseurl }}/images/view.gif "The view utility in a-shell")
+![](view.gif "The view utility in a-shell")
 
 Also, as a quick tip, one can use Command + W to quickly exit the preview and use the back and forward keys to cycle through the files. This is very useful!
 
@@ -132,7 +132,7 @@ pbcopy < factorial.py
 a-Shell interfaces nicely with Shortcuts. The following gif shows an interface where I take an input from Shortcuts app -> Pass it to a Python script and execute it inside a-shell -> Store the results in a text file -> View the content of the text file in Shortcuts.
 
 
-![]({{ site.baseurl }}/images/shortcuts.gif "Using shortcuts in a-shell with Python!")
+![](shortcuts.gif "Using shortcuts in a-shell with Python!")
 
 The link to this shortcut is [here](https://www.icloud.com/shortcuts/a04946a553df4e9790b2c352c5663b0a)
 
@@ -148,11 +148,11 @@ print(f"The factorial of {num} is {math.factorial(num)}")
 
 The following is an image of the shortcut. 
 
-![]({{ site.baseurl }}/images/Shortcut-Working.png "Using shortcuts in a-shell with Python!")
+![](Shortcut-Working.png "Using shortcuts in a-shell with Python!")
 
 Based on the suggestion [here](https://github.com/holzschu/a-shell/issues/74#issuecomment-861416673), I used pbcopy to copy the content to the clipboard and use it directly. It reduces the number of lines! 
 
-![]({{ site.baseurl }}/images/Shortcut-2.png "More efficient version using clipboard")
+![](Shortcut-2.png "More efficient version using clipboard")
 
 ## Using the WorkingCopy App
 
@@ -160,11 +160,11 @@ WorkingCopy is a very nicely made Git app on the iPad. It is one of the best mad
 
 I'll let the pictures do the talking.
 
-![]({{ site.baseurl }}/images/Working-Copy-1.png "WorkingCopy App interface")
+![](Working-Copy-1.png "WorkingCopy App interface")
 
-![]({{ site.baseurl }}/images/Working-Copy-2.png "WorkingCopy App interfaces nicely with the Files app!")
+![](Working-Copy-2.png "WorkingCopy App interfaces nicely with the Files app!")
 
-![]({{ site.baseurl }}/images/Working-Copy-3.png "WorkingCopy App can nicely show the diffs")
+![](Working-Copy-3.png "WorkingCopy App can nicely show the diffs")
 
 
 
@@ -235,7 +235,7 @@ The iPad Files app is a fairly well made app. Perhaps not as functional as the M
 
 For instance, merging multiple PDFs is easier (for me) than doing the same on Mac. One just needs to select multiple files and then "right" click to "Create PDF"
 
-![]({{ site.baseurl }}/images/CombinePDF.gif "Combining PDFs is trivial on the iPad using Files app")
+![](CombinePDF.gif "Combining PDFs is trivial on the iPad using Files app")
 
 I use the following ffmpeg command (inside a-Shell) to create this GIF courtesy this excellent tutorial from [GIPHY folks](https://engineering.giphy.com/how-to-make-gifs-with-ffmpeg/)
 
@@ -244,19 +244,19 @@ I use the following ffmpeg command (inside a-Shell) to create this GIF courtesy 
 The Documents app has a very nice pdf viewing experience. It gives the "full-screen" experience on connected displays and can potentially be an excellent pdf viewer for showing my slides on the projector in the classroom setting.
 
 
-![]({{ site.baseurl }}/images/PDF-view.png "Documents app is an excellent PDF viewer!")
+![](PDF-view.png "Documents app is an excellent PDF viewer!")
 
 Another advantage of the Documents app PDF viewer is that we can change the tone to Sepia or Dark. The following image shows the view I get when I change the tone to Dark.
 
-![]({{ site.baseurl }}/images/PDF-view-dark.png "The dark tone with the click of a button is an amazing feature!")
+![](PDF-view-dark.png "The dark tone with the click of a button is an amazing feature!")
 
 When connected to an external display, the PDF viewer gives various options. In the next image, I show the view when I "focus" on a part of the slide.
 
-![]({{ site.baseurl }}/images/PDF-view-focus.png "Focusing on parts of pdf")
+![](PDF-view-focus.png "Focusing on parts of pdf")
 
 Finally, the image below shows the "focused" slide on the external display.
 
-![]({{ site.baseurl }}/images/PDF-screen-focus.jpeg "Focusing on parts of pdf on external display")
+![](PDF-screen-focus.jpeg "Focusing on parts of pdf on external display")
 
 ```bash
 ffmpeg -i Video.MP4  -filter_complex "[0:v]  fps=12,scale=720:-1,split [a][b];[a] palettegen [p];[b][p] palette
