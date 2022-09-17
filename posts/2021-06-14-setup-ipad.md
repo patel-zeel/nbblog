@@ -19,7 +19,7 @@ My laptop is broken. I am away from office. I have an iPad Pro 2020. I got my of
 
 The magic keyboard and the magic trackpad greatly increase the iPad experience and make it programmer friendly.
 
-![]({{ site.baseurl }}/images/IPAD-Photo.jpeg "Magic Keyboard and Trackpad")
+![](IPAD-Photo.jpeg "Magic Keyboard and Trackpad")
 
 
 # Setting up an iPad for programming
@@ -32,7 +32,7 @@ The magic keyboard and the magic trackpad greatly increase the iPad experience a
 First, after installing a-Shell, I like to set the font size, terminal background and foreground color. Here is how the a-shell app looks like
 
 
-![]({{ site.baseurl }}/images/A-shell-initial.png "a-shell on the iPad is my favourite app!")
+![](A-shell-initial.png "a-shell on the iPad is my favourite app!")
 
 `config -b black -f white -s 20`
 
