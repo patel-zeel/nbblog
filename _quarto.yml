@@ -5,15 +5,17 @@ website:
   title: "blog"
   navbar:
     right:
-      - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        - href: https://nipunbatra.github.io
+          text: Homepage
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: [flatly, styles.scss]
+      dark: [darkly, styles-dark.scss]
+    highlight-style: a11y-dark
+    mainfont: "Roboto"
+    code-copy: true
+    code-overflow: wrap
 
 
 execute:
