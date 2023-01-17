@@ -1,0 +1,17 @@
+---
+title: "VSCode Settings and Tips"
+author: "Nipun Batra"
+date: "2023-01-17"
+categories: [ML, vscode]
+---
+
+### Most used keyboard shortcuts
+
+| Shortcut | Action |
+|:--------:|:------:|
+| Cmd + Shift + P | Open command palette |
+| Ctrl + ` | Toggle terminal |
+| Cmd + B | Toggle sidebar |
+| Cmd + Ctrl + F | Toggle full screen |
+
+
