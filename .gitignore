@@ -9,3 +9,7 @@ runs/
 runs
 
 /.luarc.json
+
+posts/audio/*
+/posts/audio/
+
